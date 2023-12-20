@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobobd.com</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <!--header start-->
+  <section class="headfixing">
+
+    <section class="header">
+      <div class="wrap">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col">
+              <p class="mb-0 phone"><span class="fa fa-phone"></span> <a href="#">+880 1634748548</a></p>
+            </div>
+            <div class="col d-flex justify-content-end">
+              <div class="social-media">
+                <p class="mb-0 d-flex">
+                  <a href="https://www.facebook.com/" class="d-flex align-items-center justify-content-center"><span
+                      class=""><i class="fa-brands fa-facebook-f"></i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span><i
+                        class="fa-brands fa-twitter"></i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span><i
+                        class="fa-brands fa-instagram"></i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span><i
+                        class="fa-brands fa-youtube"></i></span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Header end-->
+    <!--Navbar start-->
+    <section class="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+          <a href="index.html">
+            <img src="images/logo.jpg" alt="Link Image">
+          </a>
+
+          <!--<a class="navbar-brand" href="index.html">Papermag <span>Magazine</span></a> -->
+          <form action="#" class="searchform order-sm-start order-lg-last d-flex">
+            <div class="form-group ">
+              <input type="text" class="form-control pl-3" placeholder="Search">
+            </div>
+
+            <div class="d-flex">
+              <button type="submit" placeholder="" class="form-control search"><span
+                  class="fa fa-search"></span></button>
+              <div class="tooltip-container">
+                <button type="submit" class="form-control search"><span><i class="fa-solid fa-heart"></i></span>
+                </button>
+                <div class="tooltip">whitelist</div>
+              </div>
+
+
+              <div id="addcartid" class="tooltip-container">
+                <div class="cartlis">
+                  <button type="submit" placeholder="" class="form-control search">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    <span class="quantity">0</span>
+                  </button>
+                  <div class="tooltip">Cart</div>
+                </div>
+
+                <section id="cart-id">
+                  <div class="cart-card" id="cart-card">
+                    <h1>Cart</h1>
+                    <div class="closeShopping">
+                      <button class="cartXmark"><span><i class="fa-solid fa-xmark"></i></span></button>
+                    </div>
+                    <div class="app-body">
+                      <ul class="addcart-list">
+                      </ul>
+                    </div>
+                    <div class="checkOut">
+                      <div class="total">0</div>
+                      <div id="checkoutButton">Checkout</div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <div class="tooltip-container">
+                <button type="button" class="form-control search" id="userIcon"><span><i
+                      class="fa-regular fa-user"></i></span></button>
+                <div class="tooltip">Profile</div>
+              </div>
+            </div>
+          </form>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span> Menu
+          </button>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Categories <svg class="svg-inline--fa fa-chevron-down" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="chevron-down" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z">
+                    </path>
+                  </svg></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="#laptop-section">Laptop</a>
+                  <a class="dropdown-item" href="#Smartphone-section">Smartphone</a>
+                  <a class="dropdown-item" href="#smartwatch-section">Smart Watch</a>
+                  <a class="dropdown-item" href="#Accessories-section">Accessories</a>
+                </div>
+              </li>
+              <li class="nav-item"><a href="#foot-class-js" class="nav-link">About Us</a></li>
+              <!--  <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>  -->
+              <li class="nav-item"><a href="#foot-class-js" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+  </section>
+
+  <div class="cart-card">
+    <h1>Cart</h1>
+    <div class="closeShopping">
+      <button class="cartXmark"><span><i class="fa-solid fa-xmark"></i></span></button>
+    </div>
+    <div class="checkOut">
+      <div class="total">0</div>
+      <div id="checkoutButton">Checkout</div>
+    </div>
+  </div>
+
+  <!--Navbar end-->
+  <!--Carsoul start-->
+  <section class="carousels">
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="car-img-margin">
+          <div class="carousel-item active">
+            <img class="carimg" src="images/banr1.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>HAVIT HV-H2105D</h1>
+                <p class="opacity-75">Get 20% Discount for pay with Bkash</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Order now</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carimg" src="images/banr2.png" alt="">
+            <div class="container">
+              <div class="carousel-caption">
+                <div class="cus2">
+                  <h1>xiaomi 11 lite 5g ne</h1>
+                  <p>0% EMI facility</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">shop now</a></p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carimg" src="images/banr3.png" alt="">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <div class="cus3">
+                  <h1>Flash sell</h1>
+                  <p>Get your spcaial discount now</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Shop now</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--Carsoul End-->
+
+  <!--Collection-section start-->
+  <section class="Collection-section">
+    <div class="collection-title" id="laptop-section">
+      <div class="title_text">
+        <h3>Laptop</h3>
+      </div>
+      <div class="home-header-line"></div>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">5% off</span>
+            <img src="images/lap1.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Lenovo IdeaPad 1 </h2>
+            <p class="product-short-des">AMD Ryzen 3 3250U 15.6 Inch FHD Display</p>
+            <span class="price">TK 47,400</span><span class="actual-price">TK 49,900</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/lap2.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">HP 15s-eq1578AU</h2>
+            <p class="product-short-des">AMD Athlon Silver 3050U 15.6 Inch FHD Display</p>
+            <span class="price">TK 56,500</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">5% off</span>
+            <img src="images/lap3.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Asus X415KA</h2>
+            <p class="product-short-des">Intel CDC N4500 14 Inch FHD Display</p>
+            <span class="price">TK 65,000</span><span class="actual-price">TK 67,500</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">3% off</span>
+            <img src="images/lap4.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Huawei MateBook</h2>
+            <p class="product-short-des">Intel Core i3 1115G4 15.6 Inch FHD Display</p>
+            <span class="price">TK 58,000</span><span class="actual-price">TK 59,800</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--New start-->
+    <div class="collection-title" id="Smartphone-section">
+      <div class="title_text">
+        <h3>Smartphone</h3>
+      </div>
+      <div class="home-header-line"></div>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/phn1.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Xiaomi 12 Pro</h2>
+            <p class="product-short-des">8/256 GB<br>Triple rear camera,B-4600mAh Li-ion</p>
+            <span class="price">TK 109,999</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/phn2.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Realme 11 Pro</h2>
+            <p class="product-short-des">8/256 GB<br>6.7" amoled display,B-5000mAh Li-ion.</p>
+            <span class="price">TK 34,990</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/phn3.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Samsung Galaxy A54 </h2>
+            <p class="product-short-des">8/128 GB<br>B-5000 mah Li-ion with 25W fast charger</p>
+            <span class="price">TK 39,999</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/phn4.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand"> iPhone 15 Pro</h2>
+            <p class="product-short-des">8/512 GB<br>A17 Pro(3nm) chip & 15W fast charger</p>
+            <span class="price">TK 160,000</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--New start-->
+    <div class="collection-title" id="smartwatch-section">
+      <div class="title_text">
+        <h3>Smartwatch</h3>
+      </div>
+      <div class="home-header-line"></div>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/smrtw1.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Haylou RT #LS05S</h2>
+            <p class="product-short-des">Watch Size - 45mm <br> Cellular Network - No Screen/Display Size.-1.28"</p>
+            <span class="price">TK 3,150</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/smrtw2.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Wiwu SW01</h2>
+            <p class="product-short-des">Screen/Display Size.- 2.10" Waterproof - Yes <br> Heart Rate - Yes</p>
+            <span class="price">TK 3,360</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/smrtw3.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Kieslect K11</h2>
+            <p class="product-short-des">Watch Size - 45mm Screen/Display Size.- 1.39" Waterproof - Yes</p>
+            <span class="price">TK 4,340</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag">8% off</span>
+            <img src="images/smrtw4.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Apple Watch Series 8</h2>
+            <p class="product-short-des">Watch Size - 45mm Screen/Display Size.- 1.90" Waterproof - Yes</p>
+            <span class="price">TK 53,406</span><span class="actual-price">58,050</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--New start-->
+
+    <div class="collection-title" id="Accessories-section">
+      <div class="title_text">
+        <h3>Accessories</h3>
+      </div>
+      <div class="home-header-line"></div>
+      <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/acces1.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">A4 TECH G600i</h2>
+            <p class="product-short-des">VIRTUAL 7.1 SURROUND SOUND DETACHABLE MIC, 3.5MM+USB BLACK GAMING HEADSET</p>
+            <span class="price">TK 3,500</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/acces2.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Haylou GT1</h2>
+            <p class="product-short-des">True Wireless Earbud</p>
+            <span class="price">TK 1,650</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/acces3.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">Havit M3 mx701</h2>
+            <p class="product-short-des">Havit M3 Havit mx701 Portable Bluetooth Speaker Alarm Clock</p>
+            <span class="price">TK 1,200</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="images/acces4.jpg" class="product-thumb" alt="">
+            <button class="card-btn">add to cart</button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">awei y900</h2>
+            <p class="product-short-des">Wireless Bluetooth Speaker Y900 Color- Red</p>
+            <span class="price">TK 1,350</span><span class="actual-price"></span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+  <!--Collection-section end-->
+
+  <!--Footer section start-->
+  <footer id="foot-class-js">
+    <div class="footer-gray">
+      <div class="footer-custom">
+        <div class="footer-lists">
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">Order Toll Free</h6>
+            <ul class="ftr-links-sub">
+              <li>800-952-5592</li>
+            </ul>
+          </div>
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">Customer Service</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="/help/talktous.html" rel="nofollow">Contact Us</a></li>
+              <li><a href="/help/placingorders.html" rel="nofollow">Ordering</a></li>
+              <li><a href="/help/shipping.html" rel="nofollow">Shipping &amp; Delivery</a></li>
+              <li><a href="/help/shippingreturns.html" rel="nofollow">Returns</a></li>
+              <li><a href="/help/faq.html" rel="nofollow">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-wrap">
+            <h6 class="ftr-hdr">About Mobobd.com</h6>
+            <ul class="ftr-links-sub">
+              <li><a href="/asp/aboutus/default-asp/_/posters.htm" rel="nofollow">Our Company</a></li>
+              <li><a href="http://corporate.art.com/careers" rel="nofollow">Careers</a></li>
+              <li><a href="/asp/landing/artistrising" rel="nofollow">Artist Rising</a></li>
+              <li><a href="/~/art-for-business" rel="nofollow">Business &amp; Trade Sales</a></li>
+              <li><a href="http://blog.art.com" rel="nofollow">Mobobd.COM BLOG</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-email">
+          <h6 class="ftr-hdr">Sign up for exclusive offers and inspiration</h6>
+          <div id="ftr-email" class="ftr-email-form">
+            <form id="ftrEmailForm" method="post" action="">
+              <div class="error">Please enter a valid email address</div>
+              <input type="text" name="email_address_" id="ftrEmailInput" class="input"
+                placeholder="Enter email address" />
+              <!--
+                -->
+              <input type="submit" class="button" value="SUBMIT" />
+
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <h6 class="ftr-hdr">Follow Us</h6>
+          <ul>
+            <li>
+              <a href="" title="Facebook">
+                <img width="24" height="24" alt="Like us on Facebook"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+              </a>
+            </li>
+            <li>
+              <a href="" title="Youtube">
+                <img width="24" height="24" alt="Follow us on Youtube"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6aHumAGTDsxAqn_TU6IxFyicLPksnGkBebrkZlPDzylRFFL_3PD3bq8FN9ve9uz5j-4&usqp=CAU">
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img width="24" height="24" alt="Follow us on Pinterest"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="">
+                <img width="24" height="24" alt="Follow us on Instagram"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+              </a>
+            </li>
+            <li>
+              <a href="" title="Twitter"
+                onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+                <img width="50" height="24" alt="Follow us on Twitter"
+                  src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-legal">
+          <p>&copy; Mobobd.com Inc. All Rights Reserved. | <a href="" rel="nofollow">Privacy Policy</a> | <a href=""
+              rel="nofollow">Terms of Use</a> | <a href="" rel="nofollow">Terms of Sale</a></p>
+          <p>Various aspects of this website are covered by issued US patent No. 7,973,796 and other pending patent
+            applications.</p>
+        </div>
+
+        <div class="payment-section">
+          <h4>Payment Methods</h4>
+          <ul>
+            <li><img src="images/fvisa.jpg" alt="Visa"></li>
+            <li><img src="images/fmaster.jpg" alt="MasterCard"></li>
+            <li><img src="images/fpay.jpg" alt="PayPal"></li>
+            <li><img src="images/fbksah.jpg" alt="Bkash"></li>
+            <li><img src="images/fnogod.jpg" alt="Nogod"></li>
+            <li><img src="images/frocket.jpg" alt="rocket"></li>
+            <li><img src="images/fastha.jpg" alt="astha"></li>
+            <li><img src="images/funet.jpg" alt="Unet"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer section end-->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script>
+    var userIconBtn = document.getElementById('userIcon');
+    userIconBtn.addEventListener('click', function () {
+      window.location.href = 'login.html';
+    });
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    #navbarNavAltMarkup .nav-link{
+        margin-left: 30px;
+    }
+    #navbarNavAltMarkup .button{
+        margin-top: 15px;
+    }
+    #navbarNavAltMarkup a .dot {
+        top: 50%;
+        left: -15px;
+    }
+    /* navbar part end */
+    #banner {
+        background: url(../images/Banner.png) no-repeat;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+    #banner .container .text h2 {
+        font-size: 35px;
+        line-height: 40px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    #banner .container .text {
+        height: auto;
+    }
+    #banner .container .text p {
+        width: auto;
+    }
+    #banner .container .text {
+        width: auto;
+    }
+
+    /* banner part end */
+
+    /* services part start */
+    #services .container .text {
+        width: auto;
+    }
+    #services .container .text h2 {
+        font-size: 25px;
+    }
+    #services .container .row .one {
+        width: auto;
+        height: 350px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #services .container .row{
+        justify-content: center;
+    }
+    #services .container .row .one .text h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    #services .container .row .one {
+        padding-top: 48px;
+        padding-left: 10px;
+    }
+    #services .container{
+        margin-bottom: 50px;
+    }
+
+    /* services part end */
+
+    /* portfolio part start */
+    #portfolio .container .text h2 {
+        font-size: 25px;
+    }
+    #portfolio .container .text {
+        width: auto;
+    }
+    #portfolio .nav {
+        width: auto;
+        height: auto;
+    }
+    #portfolio .nav-link{
+        width: 100%;
+        margin: auto;
+    }
+    #portfolio .row .one {
+        margin-top: 20px;
+    }
+
+    #portfolio .container{
+        margin-bottom: 50px;
+    }
+
+    /* portfolio part end */
+
+    /* team part start */
+    #team .container{
+        margin-bottom: 50px;
+    }
+    #team .container .text {
+        width: auto;
+        margin-bottom: 20px !important;
+    }
+    #team .container .text h2 {
+        font-size: 23px;
+    }
+    #team .container .images {
+        margin-bottom: 20px;
+    }
+    #team .container .pagination {
+        margin-top: 20px !important;
+    }
+
+    /* team part end */
+
+    /* customer part start */
+    #customer .container .text {
+        width: auto;
+    }
+    #customer .container .text h2 {
+        font-size: 23px;
+    }
+    #customer .container .row .box {
+        width: auto;
+        padding: 28px 28px;
+        height: auto;
+    }
+    #customer .container .row .text {
+        width: auto;
+    }
+    #customer .container .row .box {
+        margin-bottom: 20px;
+    }
+
+    #customer .container{
+        margin-bottom: 50px;
+    }
+
+    #customer .container .pagination {
+        margin-top: 20px !important;
+    }
+    /* customer part end */
+
+    /* news part start */
+    #news .container{
+        margin-bottom: 50px;
+    }
+    #news .container .text {
+        width: auto;
+    }
+    #news .container .text h2 {
+        font-size: 25px;
+    }
+    #news .container .row .one {
+        margin-bottom: 20px;
+    }
+    #news .container .row .one .text p {
+        margin-right: 25px;
+    }
+    #news .container .row .one .two h4 {
+        width: auto;
+    }
+    /* news part end */
+
+    /* footer part start */
+    #footer {
+        width: auto;
+        padding: 50px 0;
+        padding-bottom: 20px !important;
+    }
+    #footer .container{
+        flex-wrap: wrap;
+    }
+    #footer .two {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+    #footer .three {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+    #footer .four {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+    #footer .five {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+    #footer .two h4{
+        font-size: 25px;
+    }
+    #footer .three h4{
+        font-size: 25px;
+    }
+    #footer .four h4{
+        font-size: 25px;
+    }
+    #footer .five h4{
+        font-size: 25px;
+    }
+    #footer .one p {
+        width: auto;
+    }
+    
+    /* footer part end */
+
+
+}
